@@ -1,0 +1,4568 @@
+{
+  "ok": true,
+  "preferenceVersion": 3,
+  "dataRevision": 1,
+  "engineVersion": "1.2.0",
+  "brand": {
+    "name": "Rovea",
+    "eyebrow": "THE ART OF GOING SOMEWHERE",
+    "headline": "A little further.\nA little closer.",
+    "description": "Find your own rhythm, from Himalayan mornings to slow days by the sea. A thoughtful journey, shaped around you.",
+    "cta": "Plan Your Vacation",
+    "footer": "Thoughtful journeys. Room to wander.",
+    "primary": "#173f35",
+    "accent": "#bf6544",
+    "logo": "/images/logo.svg"
+  },
+  "destination": {
+    "id": "kerala",
+    "name": "Kerala",
+    "tagline": "Green, as far as you feel.",
+    "description": "Kochi gateway → Munnar tea country → Alleppey backwaters → Kochi gateway. A deliberately paced road journey.",
+    "image": "/images/kerala.svg",
+    "enabled": true,
+    "archived": false,
+    "order": 2,
+    "minStayDays": 4,
+    "maxStayDays": 30,
+    "interests": [
+      "nature",
+      "culture",
+      "adventure",
+      "relaxation"
+    ],
+    "categories": [
+      "comfort",
+      "premium"
+    ],
+    "minStayMinutes": 3600
+  },
+  "preferences": {
+    "inputVersion": 3,
+    "destination": "kerala",
+    "startDate": "2027-01-10",
+    "days": 10,
+    "durationMode": "destination-stay",
+    "adults": 2,
+    "childAges": [],
+    "group": "couple",
+    "category": "comfort",
+    "rooms": 1,
+    "interests": [
+      "nature",
+      "culture"
+    ],
+    "selected": [],
+    "excluded": [],
+    "transport": "private",
+    "transfers": [
+      "arrival",
+      "departure"
+    ],
+    "mealPlan": "full",
+    "childCount": 0,
+    "activityChoice": "auto",
+    "transferChoice": "choose"
+  },
+  "timeline": {
+    "start": 29992320,
+    "depart": 29993040,
+    "arrive": 29993280,
+    "arrivalDay": 29992320,
+    "returnDepart": 30006000,
+    "home": 30006270,
+    "returnDay": 30005280,
+    "finalDate": 30005280,
+    "stayDays": 10,
+    "totalCalendarDays": 10,
+    "journey": {
+      "id": "kerala-journey",
+      "destination": "kerala",
+      "mode": "Demo flight + airport time",
+      "gateway": "kerala-gateway",
+      "outboundMinutes": 240,
+      "returnMinutes": 270,
+      "breaksIncluded": true,
+      "extraBreakMinutes": 0,
+      "arrivalBuffer": 60,
+      "returnTime": "12:00",
+      "returnBuffer": 60,
+      "includeFares": false,
+      "outboundFare": 0,
+      "returnFare": 0
+    }
+  },
+  "nights": [
+    {
+      "date": "2027-01-10",
+      "base": {
+        "id": "kerala-base-munnar",
+        "destination": "kerala",
+        "name": "Munnar",
+        "zone": "kerala-zone-hills",
+        "order": 0,
+        "minNights": 2,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-munnar-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-munnar",
+        "name": "Rovea Munnar House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-11",
+      "base": {
+        "id": "kerala-base-munnar",
+        "destination": "kerala",
+        "name": "Munnar",
+        "zone": "kerala-zone-hills",
+        "order": 0,
+        "minNights": 2,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-munnar-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-munnar",
+        "name": "Rovea Munnar House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-12",
+      "base": {
+        "id": "kerala-base-munnar",
+        "destination": "kerala",
+        "name": "Munnar",
+        "zone": "kerala-zone-hills",
+        "order": 0,
+        "minNights": 2,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-munnar-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-munnar",
+        "name": "Rovea Munnar House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-13",
+      "base": {
+        "id": "kerala-base-munnar",
+        "destination": "kerala",
+        "name": "Munnar",
+        "zone": "kerala-zone-hills",
+        "order": 0,
+        "minNights": 2,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-munnar-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-munnar",
+        "name": "Rovea Munnar House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-14",
+      "base": {
+        "id": "kerala-base-munnar",
+        "destination": "kerala",
+        "name": "Munnar",
+        "zone": "kerala-zone-hills",
+        "order": 0,
+        "minNights": 2,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-munnar-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-munnar",
+        "name": "Rovea Munnar House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-15",
+      "base": {
+        "id": "kerala-base-alleppey",
+        "destination": "kerala",
+        "name": "Alleppey",
+        "zone": "kerala-zone-water",
+        "order": 1,
+        "minNights": 1,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-alleppey-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-alleppey",
+        "name": "Rovea Alleppey House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-16",
+      "base": {
+        "id": "kerala-base-alleppey",
+        "destination": "kerala",
+        "name": "Alleppey",
+        "zone": "kerala-zone-water",
+        "order": 1,
+        "minNights": 1,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-alleppey-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-alleppey",
+        "name": "Rovea Alleppey House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-17",
+      "base": {
+        "id": "kerala-base-alleppey",
+        "destination": "kerala",
+        "name": "Alleppey",
+        "zone": "kerala-zone-water",
+        "order": 1,
+        "minNights": 1,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-alleppey-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-alleppey",
+        "name": "Rovea Alleppey House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    },
+    {
+      "date": "2027-01-18",
+      "base": {
+        "id": "kerala-base-alleppey",
+        "destination": "kerala",
+        "name": "Alleppey",
+        "zone": "kerala-zone-water",
+        "order": 1,
+        "minNights": 1,
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "luggageDrop": true
+      },
+      "hotel": {
+        "id": "kerala-base-alleppey-comfort",
+        "destination": "kerala",
+        "base": "kerala-base-alleppey",
+        "name": "Rovea Alleppey House (fictional)",
+        "category": "comfort",
+        "nightlyRate": 3200,
+        "maxOccupancy": 3,
+        "minAdultsPerRoom": 1,
+        "includedBreakfast": true,
+        "dateRates": [],
+        "enabled": true,
+        "archived": false
+      },
+      "rate": 3200,
+      "rooms": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "journey",
+      "title": "New Delhi → Kerala · Demo flight + airport time",
+      "start": 29993040,
+      "end": 29993280
+    },
+    {
+      "type": "rest",
+      "title": "Arrival formalities & rest buffer",
+      "start": 29993280,
+      "end": 29993340
+    },
+    {
+      "type": "gateway",
+      "title": "Gateway → Munnar",
+      "start": 29993340,
+      "end": 29993580,
+      "km": 132
+    },
+    {
+      "type": "hotel",
+      "title": "Check in · Munnar",
+      "start": 29993580,
+      "end": 29993610
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Munnar",
+      "start": 29994240,
+      "end": 29994270,
+      "meal": "breakfast"
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Highland bird walk",
+      "start": 29994270,
+      "end": 29994290,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Highland bird walk · preparation / opening wait",
+      "start": 29994290,
+      "end": 29994300
+    },
+    {
+      "type": "activity",
+      "title": "Highland bird walk",
+      "start": 29994300,
+      "end": 29994420,
+      "activity": {
+        "id": "kerala-bird",
+        "destination": "kerala",
+        "name": "Highland bird walk",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 8
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Highland bird walk · recovery & pace buffer",
+      "start": 29994420,
+      "end": 29994430
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29994430,
+      "end": 29994450,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29994450,
+      "end": 29994540
+    },
+    {
+      "type": "meal",
+      "title": "Lunch · Munnar",
+      "start": 29994540,
+      "end": 29994600,
+      "meal": "lunch"
+    },
+    {
+      "type": "rest",
+      "title": "Unhurried post-lunch rest",
+      "start": 29994600,
+      "end": 29994630
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Hill craft workshop",
+      "start": 29994630,
+      "end": 29994650,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Hill craft workshop · preparation / opening wait",
+      "start": 29994650,
+      "end": 29994660
+    },
+    {
+      "type": "activity",
+      "title": "Hill craft workshop",
+      "start": 29994660,
+      "end": 29994780,
+      "activity": {
+        "id": "kerala-craft",
+        "destination": "kerala",
+        "name": "Hill craft workshop",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "culture"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 7
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Hill craft workshop · recovery & pace buffer",
+      "start": 29994780,
+      "end": 29994790
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29994790,
+      "end": 29994810,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29994810,
+      "end": 29994870
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Munnar",
+      "start": 29994900,
+      "end": 29994960,
+      "meal": "dinner"
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Munnar",
+      "start": 29995680,
+      "end": 29995710,
+      "meal": "breakfast"
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Echo valley viewpoints",
+      "start": 29995710,
+      "end": 29995730,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Echo valley viewpoints · preparation / opening wait",
+      "start": 29995730,
+      "end": 29995740
+    },
+    {
+      "type": "activity",
+      "title": "Echo valley viewpoints",
+      "start": 29995740,
+      "end": 29995840,
+      "activity": {
+        "id": "kerala-echo",
+        "destination": "kerala",
+        "name": "Echo valley viewpoints",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 100,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 4
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Echo valley viewpoints · recovery & pace buffer",
+      "start": 29995840,
+      "end": 29995850
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29995850,
+      "end": 29995870,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29995870,
+      "end": 29995980
+    },
+    {
+      "type": "meal",
+      "title": "Lunch · Munnar",
+      "start": 29995980,
+      "end": 29996040,
+      "meal": "lunch"
+    },
+    {
+      "type": "rest",
+      "title": "Unhurried post-lunch rest",
+      "start": 29996040,
+      "end": 29996070
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Hill garden visit",
+      "start": 29996070,
+      "end": 29996090,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Hill garden visit · preparation / opening wait",
+      "start": 29996090,
+      "end": 29996100
+    },
+    {
+      "type": "activity",
+      "title": "Hill garden visit",
+      "start": 29996100,
+      "end": 29996200,
+      "activity": {
+        "id": "kerala-garden",
+        "destination": "kerala",
+        "name": "Hill garden visit",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 100,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 3
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Hill garden visit · recovery & pace buffer",
+      "start": 29996200,
+      "end": 29996210
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29996210,
+      "end": 29996230,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29996230,
+      "end": 29996310
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Munnar",
+      "start": 29996340,
+      "end": 29996400,
+      "meal": "dinner"
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Munnar",
+      "start": 29997120,
+      "end": 29997150,
+      "meal": "breakfast"
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Mattupetty landscape",
+      "start": 29997150,
+      "end": 29997170,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Mattupetty landscape · preparation / opening wait",
+      "start": 29997170,
+      "end": 29997180
+    },
+    {
+      "type": "activity",
+      "title": "Mattupetty landscape",
+      "start": 29997180,
+      "end": 29997300,
+      "activity": {
+        "id": "kerala-mattupetty",
+        "destination": "kerala",
+        "name": "Mattupetty landscape",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 2
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Mattupetty landscape · recovery & pace buffer",
+      "start": 29997300,
+      "end": 29997310
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29997310,
+      "end": 29997330,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29997330,
+      "end": 29997420
+    },
+    {
+      "type": "meal",
+      "title": "Lunch · Munnar",
+      "start": 29997420,
+      "end": 29997480,
+      "meal": "lunch"
+    },
+    {
+      "type": "rest",
+      "title": "Unhurried post-lunch rest",
+      "start": 29997480,
+      "end": 29997510
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Tea heritage collection",
+      "start": 29997510,
+      "end": 29997530,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Tea heritage collection · preparation / opening wait",
+      "start": 29997530,
+      "end": 29997540
+    },
+    {
+      "type": "activity",
+      "title": "Tea heritage collection",
+      "start": 29997540,
+      "end": 29997640,
+      "activity": {
+        "id": "kerala-museum",
+        "destination": "kerala",
+        "name": "Tea heritage collection",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "culture"
+        ],
+        "visitMinutes": 100,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 1
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Tea heritage collection · recovery & pace buffer",
+      "start": 29997640,
+      "end": 29997650
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29997650,
+      "end": 29997670,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29997670,
+      "end": 29997750
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Munnar",
+      "start": 29997780,
+      "end": 29997840,
+      "meal": "dinner"
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Munnar",
+      "start": 29998560,
+      "end": 29998590,
+      "meal": "breakfast"
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Spice garden exploration",
+      "start": 29998590,
+      "end": 29998610,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Spice garden exploration · preparation / opening wait",
+      "start": 29998610,
+      "end": 29998620
+    },
+    {
+      "type": "activity",
+      "title": "Spice garden exploration",
+      "start": 29998620,
+      "end": 29998740,
+      "activity": {
+        "id": "kerala-spice",
+        "destination": "kerala",
+        "name": "Spice garden exploration",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 5
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Spice garden exploration · recovery & pace buffer",
+      "start": 29998740,
+      "end": 29998750
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29998750,
+      "end": 29998770,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29998770,
+      "end": 29998860
+    },
+    {
+      "type": "meal",
+      "title": "Lunch · Munnar",
+      "start": 29998860,
+      "end": 29998920,
+      "meal": "lunch"
+    },
+    {
+      "type": "rest",
+      "title": "Unhurried post-lunch rest",
+      "start": 29998920,
+      "end": 29998950
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Tea estate walk",
+      "start": 29998950,
+      "end": 29998970,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Tea estate walk · preparation / opening wait",
+      "start": 29998970,
+      "end": 29998980
+    },
+    {
+      "type": "activity",
+      "title": "Tea estate walk",
+      "start": 29998980,
+      "end": 29999100,
+      "activity": {
+        "id": "kerala-tea",
+        "destination": "kerala",
+        "name": "Tea estate walk",
+        "zone": "kerala-zone-hills",
+        "base": "kerala-base-munnar",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 0
+      },
+      "zone": "Munnar tea country",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Tea estate walk · recovery & pace buffer",
+      "start": 29999100,
+      "end": 29999110
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Munnar",
+      "start": 29999110,
+      "end": 29999130,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Munnar",
+      "start": 29999130,
+      "end": 29999190
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Munnar",
+      "start": 29999220,
+      "end": 29999280,
+      "meal": "dinner"
+    },
+    {
+      "type": "hotel",
+      "title": "Check out · Munnar",
+      "start": 30000000,
+      "end": 30000030
+    },
+    {
+      "type": "relocation",
+      "title": "Munnar → Alleppey · base relocation",
+      "start": 30000030,
+      "end": 30000270,
+      "km": 132
+    },
+    {
+      "type": "rest",
+      "title": "Luggage drop & rest · Alleppey",
+      "start": 30000270,
+      "end": 30000360
+    },
+    {
+      "type": "hotel",
+      "title": "Check in · Alleppey",
+      "start": 30000360,
+      "end": 30000390
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Alleppey canal walk",
+      "start": 30000390,
+      "end": 30000410,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Alleppey canal walk · preparation / opening wait",
+      "start": 30000410,
+      "end": 30000420
+    },
+    {
+      "type": "activity",
+      "title": "Alleppey canal walk",
+      "start": 30000420,
+      "end": 30000520,
+      "activity": {
+        "id": "kerala-canal",
+        "destination": "kerala",
+        "name": "Alleppey canal walk",
+        "zone": "kerala-zone-water",
+        "base": "kerala-base-alleppey",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 100,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 10
+      },
+      "zone": "Alleppey backwaters",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Alleppey canal walk · recovery & pace buffer",
+      "start": 30000520,
+      "end": 30000530
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Alleppey",
+      "start": 30000530,
+      "end": 30000550,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Alleppey",
+      "start": 30000550,
+      "end": 30000630
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Alleppey",
+      "start": 30000660,
+      "end": 30000720,
+      "meal": "dinner"
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Alleppey",
+      "start": 30001440,
+      "end": 30001470,
+      "meal": "breakfast"
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Coir craft workshop",
+      "start": 30001470,
+      "end": 30001490,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Coir craft workshop · preparation / opening wait",
+      "start": 30001490,
+      "end": 30001500
+    },
+    {
+      "type": "activity",
+      "title": "Coir craft workshop",
+      "start": 30001500,
+      "end": 30001620,
+      "activity": {
+        "id": "kerala-coir",
+        "destination": "kerala",
+        "name": "Coir craft workshop",
+        "zone": "kerala-zone-water",
+        "base": "kerala-base-alleppey",
+        "tags": [
+          "culture"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 12
+      },
+      "zone": "Alleppey backwaters",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Coir craft workshop · recovery & pace buffer",
+      "start": 30001620,
+      "end": 30001630
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Alleppey",
+      "start": 30001630,
+      "end": 30001650,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Alleppey",
+      "start": 30001650,
+      "end": 30001740
+    },
+    {
+      "type": "meal",
+      "title": "Lunch · Alleppey",
+      "start": 30001740,
+      "end": 30001800,
+      "meal": "lunch"
+    },
+    {
+      "type": "rest",
+      "title": "Unhurried post-lunch rest",
+      "start": 30001800,
+      "end": 30001830
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Lakeside bird walk",
+      "start": 30001830,
+      "end": 30001850,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Lakeside bird walk · preparation / opening wait",
+      "start": 30001850,
+      "end": 30001860
+    },
+    {
+      "type": "activity",
+      "title": "Lakeside bird walk",
+      "start": 30001860,
+      "end": 30001980,
+      "activity": {
+        "id": "kerala-lake",
+        "destination": "kerala",
+        "name": "Lakeside bird walk",
+        "zone": "kerala-zone-water",
+        "base": "kerala-base-alleppey",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 20
+      },
+      "zone": "Alleppey backwaters",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Lakeside bird walk · recovery & pace buffer",
+      "start": 30001980,
+      "end": 30001990
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Alleppey",
+      "start": 30001990,
+      "end": 30002010,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Alleppey",
+      "start": 30002010,
+      "end": 30002070
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Alleppey",
+      "start": 30002100,
+      "end": 30002160,
+      "meal": "dinner"
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Alleppey",
+      "start": 30002880,
+      "end": 30002910,
+      "meal": "breakfast"
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Alleppey local market",
+      "start": 30002910,
+      "end": 30002930,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Alleppey local market · preparation / opening wait",
+      "start": 30002930,
+      "end": 30002940
+    },
+    {
+      "type": "activity",
+      "title": "Alleppey local market",
+      "start": 30002940,
+      "end": 30003040,
+      "activity": {
+        "id": "kerala-market",
+        "destination": "kerala",
+        "name": "Alleppey local market",
+        "zone": "kerala-zone-water",
+        "base": "kerala-base-alleppey",
+        "tags": [
+          "culture"
+        ],
+        "visitMinutes": 100,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 19
+      },
+      "zone": "Alleppey backwaters",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Alleppey local market · recovery & pace buffer",
+      "start": 30003040,
+      "end": 30003050
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Alleppey",
+      "start": 30003050,
+      "end": 30003070,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Alleppey",
+      "start": 30003070,
+      "end": 30003180
+    },
+    {
+      "type": "meal",
+      "title": "Lunch · Alleppey",
+      "start": 30003180,
+      "end": 30003240,
+      "meal": "lunch"
+    },
+    {
+      "type": "rest",
+      "title": "Unhurried post-lunch rest",
+      "start": 30003240,
+      "end": 30003270
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Paddy village landscape",
+      "start": 30003270,
+      "end": 30003290,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Paddy village landscape · preparation / opening wait",
+      "start": 30003290,
+      "end": 30003300
+    },
+    {
+      "type": "activity",
+      "title": "Paddy village landscape",
+      "start": 30003300,
+      "end": 30003420,
+      "activity": {
+        "id": "kerala-paddy",
+        "destination": "kerala",
+        "name": "Paddy village landscape",
+        "zone": "kerala-zone-water",
+        "base": "kerala-base-alleppey",
+        "tags": [
+          "nature"
+        ],
+        "visitMinutes": 120,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 15
+      },
+      "zone": "Alleppey backwaters",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Paddy village landscape · recovery & pace buffer",
+      "start": 30003420,
+      "end": 30003430
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Alleppey",
+      "start": 30003430,
+      "end": 30003450,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Alleppey",
+      "start": 30003450,
+      "end": 30003510
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Alleppey",
+      "start": 30003540,
+      "end": 30003600,
+      "meal": "dinner"
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Alleppey",
+      "start": 30004320,
+      "end": 30004350,
+      "meal": "breakfast"
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Village heritage walk",
+      "start": 30004350,
+      "end": 30004370,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Village heritage walk · preparation / opening wait",
+      "start": 30004370,
+      "end": 30004380
+    },
+    {
+      "type": "activity",
+      "title": "Village heritage walk",
+      "start": 30004380,
+      "end": 30004480,
+      "activity": {
+        "id": "kerala-temple",
+        "destination": "kerala",
+        "name": "Village heritage walk",
+        "zone": "kerala-zone-water",
+        "base": "kerala-base-alleppey",
+        "tags": [
+          "culture"
+        ],
+        "visitMinutes": 100,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 16
+      },
+      "zone": "Alleppey backwaters",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Village heritage walk · recovery & pace buffer",
+      "start": 30004480,
+      "end": 30004490
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Alleppey",
+      "start": 30004490,
+      "end": 30004510,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Alleppey",
+      "start": 30004510,
+      "end": 30004620
+    },
+    {
+      "type": "meal",
+      "title": "Lunch · Alleppey",
+      "start": 30004620,
+      "end": 30004680,
+      "meal": "lunch"
+    },
+    {
+      "type": "rest",
+      "title": "Unhurried post-lunch rest",
+      "start": 30004680,
+      "end": 30004710
+    },
+    {
+      "type": "local-travel",
+      "title": "Travel to Alleppey beach stroll",
+      "start": 30004710,
+      "end": 30004730,
+      "km": 11
+    },
+    {
+      "type": "preparation",
+      "title": "Alleppey beach stroll · preparation / opening wait",
+      "start": 30004730,
+      "end": 30004740
+    },
+    {
+      "type": "activity",
+      "title": "Alleppey beach stroll",
+      "start": 30004740,
+      "end": 30004840,
+      "activity": {
+        "id": "kerala-beach",
+        "destination": "kerala",
+        "name": "Alleppey beach stroll",
+        "zone": "kerala-zone-water",
+        "base": "kerala-base-alleppey",
+        "tags": [
+          "relaxation"
+        ],
+        "visitMinutes": 100,
+        "prepMinutes": 10,
+        "recoveryMinutes": 10,
+        "preferredStart": "09:00",
+        "open": "09:00",
+        "close": "17:30",
+        "lastStart": "15:30",
+        "closedWeekdays": [],
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "blackoutDates": [],
+        "intensity": "light",
+        "minAge": 0,
+        "maxAge": 90,
+        "familySuitable": true,
+        "optional": true,
+        "required": false,
+        "priceUnit": "person",
+        "adultPrice": 200,
+        "childPrice": 100,
+        "freeUnder": 4,
+        "childUnder": 12,
+        "condition": "",
+        "fallback": "",
+        "enabled": true,
+        "archived": false,
+        "order": 13
+      },
+      "zone": "Alleppey backwaters",
+      "condition": ""
+    },
+    {
+      "type": "recovery",
+      "title": "Alleppey beach stroll · recovery & pace buffer",
+      "start": 30004840,
+      "end": 30004850
+    },
+    {
+      "type": "local-travel",
+      "title": "Return to Alleppey",
+      "start": 30004850,
+      "end": 30004870,
+      "km": 11
+    },
+    {
+      "type": "leisure",
+      "title": "Unscheduled time · Alleppey",
+      "start": 30004870,
+      "end": 30004950
+    },
+    {
+      "type": "meal",
+      "title": "Dinner · Alleppey",
+      "start": 30004980,
+      "end": 30005040,
+      "meal": "dinner"
+    },
+    {
+      "type": "meal",
+      "title": "Breakfast · Alleppey",
+      "start": 30005760,
+      "end": 30005790,
+      "meal": "breakfast"
+    },
+    {
+      "type": "hotel",
+      "title": "Check out · Alleppey",
+      "start": 30005790,
+      "end": 30005820
+    },
+    {
+      "type": "gateway",
+      "title": "Alleppey → gateway",
+      "start": 30005820,
+      "end": 30005940,
+      "km": 66
+    },
+    {
+      "type": "rest",
+      "title": "Gateway reporting & return safety buffer",
+      "start": 30005940,
+      "end": 30006000
+    },
+    {
+      "type": "journey",
+      "title": "Kerala → New Delhi · Demo flight + airport time",
+      "start": 30006000,
+      "end": 30006270
+    }
+  ],
+  "days": [
+    {
+      "index": 0,
+      "stayDay": 1,
+      "label": "Stay day 1",
+      "date": "2027-01-10",
+      "base": "Munnar",
+      "blocks": [
+        {
+          "type": "journey",
+          "title": "New Delhi → Kerala · Demo flight + airport time",
+          "start": 29993040,
+          "end": 29993280,
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Arrival formalities & rest buffer",
+          "start": 29993280,
+          "end": 29993340,
+          "continues": false
+        },
+        {
+          "type": "gateway",
+          "title": "Gateway → Munnar",
+          "start": 29993340,
+          "end": 29993580,
+          "km": 132,
+          "continues": false
+        },
+        {
+          "type": "hotel",
+          "title": "Check in · Munnar",
+          "start": 29993580,
+          "end": 29993610,
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "stayDay": 2,
+      "label": "Stay day 2",
+      "date": "2027-01-11",
+      "base": "Munnar",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Munnar",
+          "start": 29994240,
+          "end": 29994270,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Highland bird walk",
+          "start": 29994270,
+          "end": 29994290,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Highland bird walk · preparation / opening wait",
+          "start": 29994290,
+          "end": 29994300,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Highland bird walk",
+          "start": 29994300,
+          "end": 29994420,
+          "activity": {
+            "id": "kerala-bird",
+            "destination": "kerala",
+            "name": "Highland bird walk",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 8
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Highland bird walk · recovery & pace buffer",
+          "start": 29994420,
+          "end": 29994430,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29994430,
+          "end": 29994450,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29994450,
+          "end": 29994540,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Lunch · Munnar",
+          "start": 29994540,
+          "end": 29994600,
+          "meal": "lunch",
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Unhurried post-lunch rest",
+          "start": 29994600,
+          "end": 29994630,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Hill craft workshop",
+          "start": 29994630,
+          "end": 29994650,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Hill craft workshop · preparation / opening wait",
+          "start": 29994650,
+          "end": 29994660,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Hill craft workshop",
+          "start": 29994660,
+          "end": 29994780,
+          "activity": {
+            "id": "kerala-craft",
+            "destination": "kerala",
+            "name": "Hill craft workshop",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "culture"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 7
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Hill craft workshop · recovery & pace buffer",
+          "start": 29994780,
+          "end": 29994790,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29994790,
+          "end": 29994810,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29994810,
+          "end": 29994870,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Munnar",
+          "start": 29994900,
+          "end": 29994960,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "stayDay": 3,
+      "label": "Stay day 3",
+      "date": "2027-01-12",
+      "base": "Munnar",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Munnar",
+          "start": 29995680,
+          "end": 29995710,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Echo valley viewpoints",
+          "start": 29995710,
+          "end": 29995730,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Echo valley viewpoints · preparation / opening wait",
+          "start": 29995730,
+          "end": 29995740,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Echo valley viewpoints",
+          "start": 29995740,
+          "end": 29995840,
+          "activity": {
+            "id": "kerala-echo",
+            "destination": "kerala",
+            "name": "Echo valley viewpoints",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 100,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 4
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Echo valley viewpoints · recovery & pace buffer",
+          "start": 29995840,
+          "end": 29995850,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29995850,
+          "end": 29995870,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29995870,
+          "end": 29995980,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Lunch · Munnar",
+          "start": 29995980,
+          "end": 29996040,
+          "meal": "lunch",
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Unhurried post-lunch rest",
+          "start": 29996040,
+          "end": 29996070,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Hill garden visit",
+          "start": 29996070,
+          "end": 29996090,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Hill garden visit · preparation / opening wait",
+          "start": 29996090,
+          "end": 29996100,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Hill garden visit",
+          "start": 29996100,
+          "end": 29996200,
+          "activity": {
+            "id": "kerala-garden",
+            "destination": "kerala",
+            "name": "Hill garden visit",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 100,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 3
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Hill garden visit · recovery & pace buffer",
+          "start": 29996200,
+          "end": 29996210,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29996210,
+          "end": 29996230,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29996230,
+          "end": 29996310,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Munnar",
+          "start": 29996340,
+          "end": 29996400,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "stayDay": 4,
+      "label": "Stay day 4",
+      "date": "2027-01-13",
+      "base": "Munnar",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Munnar",
+          "start": 29997120,
+          "end": 29997150,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Mattupetty landscape",
+          "start": 29997150,
+          "end": 29997170,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Mattupetty landscape · preparation / opening wait",
+          "start": 29997170,
+          "end": 29997180,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Mattupetty landscape",
+          "start": 29997180,
+          "end": 29997300,
+          "activity": {
+            "id": "kerala-mattupetty",
+            "destination": "kerala",
+            "name": "Mattupetty landscape",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 2
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Mattupetty landscape · recovery & pace buffer",
+          "start": 29997300,
+          "end": 29997310,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29997310,
+          "end": 29997330,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29997330,
+          "end": 29997420,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Lunch · Munnar",
+          "start": 29997420,
+          "end": 29997480,
+          "meal": "lunch",
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Unhurried post-lunch rest",
+          "start": 29997480,
+          "end": 29997510,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Tea heritage collection",
+          "start": 29997510,
+          "end": 29997530,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Tea heritage collection · preparation / opening wait",
+          "start": 29997530,
+          "end": 29997540,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Tea heritage collection",
+          "start": 29997540,
+          "end": 29997640,
+          "activity": {
+            "id": "kerala-museum",
+            "destination": "kerala",
+            "name": "Tea heritage collection",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "culture"
+            ],
+            "visitMinutes": 100,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 1
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Tea heritage collection · recovery & pace buffer",
+          "start": 29997640,
+          "end": 29997650,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29997650,
+          "end": 29997670,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29997670,
+          "end": 29997750,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Munnar",
+          "start": 29997780,
+          "end": 29997840,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "stayDay": 5,
+      "label": "Stay day 5",
+      "date": "2027-01-14",
+      "base": "Munnar",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Munnar",
+          "start": 29998560,
+          "end": 29998590,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Spice garden exploration",
+          "start": 29998590,
+          "end": 29998610,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Spice garden exploration · preparation / opening wait",
+          "start": 29998610,
+          "end": 29998620,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Spice garden exploration",
+          "start": 29998620,
+          "end": 29998740,
+          "activity": {
+            "id": "kerala-spice",
+            "destination": "kerala",
+            "name": "Spice garden exploration",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 5
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Spice garden exploration · recovery & pace buffer",
+          "start": 29998740,
+          "end": 29998750,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29998750,
+          "end": 29998770,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29998770,
+          "end": 29998860,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Lunch · Munnar",
+          "start": 29998860,
+          "end": 29998920,
+          "meal": "lunch",
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Unhurried post-lunch rest",
+          "start": 29998920,
+          "end": 29998950,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Tea estate walk",
+          "start": 29998950,
+          "end": 29998970,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Tea estate walk · preparation / opening wait",
+          "start": 29998970,
+          "end": 29998980,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Tea estate walk",
+          "start": 29998980,
+          "end": 29999100,
+          "activity": {
+            "id": "kerala-tea",
+            "destination": "kerala",
+            "name": "Tea estate walk",
+            "zone": "kerala-zone-hills",
+            "base": "kerala-base-munnar",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 0
+          },
+          "zone": "Munnar tea country",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Tea estate walk · recovery & pace buffer",
+          "start": 29999100,
+          "end": 29999110,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Munnar",
+          "start": 29999110,
+          "end": 29999130,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Munnar",
+          "start": 29999130,
+          "end": 29999190,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Munnar",
+          "start": 29999220,
+          "end": 29999280,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "stayDay": 6,
+      "label": "Stay day 6",
+      "date": "2027-01-15",
+      "base": "Alleppey",
+      "blocks": [
+        {
+          "type": "hotel",
+          "title": "Check out · Munnar",
+          "start": 30000000,
+          "end": 30000030,
+          "continues": false
+        },
+        {
+          "type": "relocation",
+          "title": "Munnar → Alleppey · base relocation",
+          "start": 30000030,
+          "end": 30000270,
+          "km": 132,
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Luggage drop & rest · Alleppey",
+          "start": 30000270,
+          "end": 30000360,
+          "continues": false
+        },
+        {
+          "type": "hotel",
+          "title": "Check in · Alleppey",
+          "start": 30000360,
+          "end": 30000390,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Alleppey canal walk",
+          "start": 30000390,
+          "end": 30000410,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Alleppey canal walk · preparation / opening wait",
+          "start": 30000410,
+          "end": 30000420,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Alleppey canal walk",
+          "start": 30000420,
+          "end": 30000520,
+          "activity": {
+            "id": "kerala-canal",
+            "destination": "kerala",
+            "name": "Alleppey canal walk",
+            "zone": "kerala-zone-water",
+            "base": "kerala-base-alleppey",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 100,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 10
+          },
+          "zone": "Alleppey backwaters",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Alleppey canal walk · recovery & pace buffer",
+          "start": 30000520,
+          "end": 30000530,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Alleppey",
+          "start": 30000530,
+          "end": 30000550,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Alleppey",
+          "start": 30000550,
+          "end": 30000630,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Alleppey",
+          "start": 30000660,
+          "end": 30000720,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "stayDay": 7,
+      "label": "Stay day 7",
+      "date": "2027-01-16",
+      "base": "Alleppey",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Alleppey",
+          "start": 30001440,
+          "end": 30001470,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Coir craft workshop",
+          "start": 30001470,
+          "end": 30001490,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Coir craft workshop · preparation / opening wait",
+          "start": 30001490,
+          "end": 30001500,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Coir craft workshop",
+          "start": 30001500,
+          "end": 30001620,
+          "activity": {
+            "id": "kerala-coir",
+            "destination": "kerala",
+            "name": "Coir craft workshop",
+            "zone": "kerala-zone-water",
+            "base": "kerala-base-alleppey",
+            "tags": [
+              "culture"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 12
+          },
+          "zone": "Alleppey backwaters",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Coir craft workshop · recovery & pace buffer",
+          "start": 30001620,
+          "end": 30001630,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Alleppey",
+          "start": 30001630,
+          "end": 30001650,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Alleppey",
+          "start": 30001650,
+          "end": 30001740,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Lunch · Alleppey",
+          "start": 30001740,
+          "end": 30001800,
+          "meal": "lunch",
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Unhurried post-lunch rest",
+          "start": 30001800,
+          "end": 30001830,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Lakeside bird walk",
+          "start": 30001830,
+          "end": 30001850,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Lakeside bird walk · preparation / opening wait",
+          "start": 30001850,
+          "end": 30001860,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Lakeside bird walk",
+          "start": 30001860,
+          "end": 30001980,
+          "activity": {
+            "id": "kerala-lake",
+            "destination": "kerala",
+            "name": "Lakeside bird walk",
+            "zone": "kerala-zone-water",
+            "base": "kerala-base-alleppey",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 20
+          },
+          "zone": "Alleppey backwaters",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Lakeside bird walk · recovery & pace buffer",
+          "start": 30001980,
+          "end": 30001990,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Alleppey",
+          "start": 30001990,
+          "end": 30002010,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Alleppey",
+          "start": 30002010,
+          "end": 30002070,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Alleppey",
+          "start": 30002100,
+          "end": 30002160,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "stayDay": 8,
+      "label": "Stay day 8",
+      "date": "2027-01-17",
+      "base": "Alleppey",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Alleppey",
+          "start": 30002880,
+          "end": 30002910,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Alleppey local market",
+          "start": 30002910,
+          "end": 30002930,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Alleppey local market · preparation / opening wait",
+          "start": 30002930,
+          "end": 30002940,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Alleppey local market",
+          "start": 30002940,
+          "end": 30003040,
+          "activity": {
+            "id": "kerala-market",
+            "destination": "kerala",
+            "name": "Alleppey local market",
+            "zone": "kerala-zone-water",
+            "base": "kerala-base-alleppey",
+            "tags": [
+              "culture"
+            ],
+            "visitMinutes": 100,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 19
+          },
+          "zone": "Alleppey backwaters",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Alleppey local market · recovery & pace buffer",
+          "start": 30003040,
+          "end": 30003050,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Alleppey",
+          "start": 30003050,
+          "end": 30003070,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Alleppey",
+          "start": 30003070,
+          "end": 30003180,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Lunch · Alleppey",
+          "start": 30003180,
+          "end": 30003240,
+          "meal": "lunch",
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Unhurried post-lunch rest",
+          "start": 30003240,
+          "end": 30003270,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Paddy village landscape",
+          "start": 30003270,
+          "end": 30003290,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Paddy village landscape · preparation / opening wait",
+          "start": 30003290,
+          "end": 30003300,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Paddy village landscape",
+          "start": 30003300,
+          "end": 30003420,
+          "activity": {
+            "id": "kerala-paddy",
+            "destination": "kerala",
+            "name": "Paddy village landscape",
+            "zone": "kerala-zone-water",
+            "base": "kerala-base-alleppey",
+            "tags": [
+              "nature"
+            ],
+            "visitMinutes": 120,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 15
+          },
+          "zone": "Alleppey backwaters",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Paddy village landscape · recovery & pace buffer",
+          "start": 30003420,
+          "end": 30003430,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Alleppey",
+          "start": 30003430,
+          "end": 30003450,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Alleppey",
+          "start": 30003450,
+          "end": 30003510,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Alleppey",
+          "start": 30003540,
+          "end": 30003600,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "stayDay": 9,
+      "label": "Stay day 9",
+      "date": "2027-01-18",
+      "base": "Alleppey",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Alleppey",
+          "start": 30004320,
+          "end": 30004350,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Village heritage walk",
+          "start": 30004350,
+          "end": 30004370,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Village heritage walk · preparation / opening wait",
+          "start": 30004370,
+          "end": 30004380,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Village heritage walk",
+          "start": 30004380,
+          "end": 30004480,
+          "activity": {
+            "id": "kerala-temple",
+            "destination": "kerala",
+            "name": "Village heritage walk",
+            "zone": "kerala-zone-water",
+            "base": "kerala-base-alleppey",
+            "tags": [
+              "culture"
+            ],
+            "visitMinutes": 100,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 16
+          },
+          "zone": "Alleppey backwaters",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Village heritage walk · recovery & pace buffer",
+          "start": 30004480,
+          "end": 30004490,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Alleppey",
+          "start": 30004490,
+          "end": 30004510,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Alleppey",
+          "start": 30004510,
+          "end": 30004620,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Lunch · Alleppey",
+          "start": 30004620,
+          "end": 30004680,
+          "meal": "lunch",
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Unhurried post-lunch rest",
+          "start": 30004680,
+          "end": 30004710,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Travel to Alleppey beach stroll",
+          "start": 30004710,
+          "end": 30004730,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "preparation",
+          "title": "Alleppey beach stroll · preparation / opening wait",
+          "start": 30004730,
+          "end": 30004740,
+          "continues": false
+        },
+        {
+          "type": "activity",
+          "title": "Alleppey beach stroll",
+          "start": 30004740,
+          "end": 30004840,
+          "activity": {
+            "id": "kerala-beach",
+            "destination": "kerala",
+            "name": "Alleppey beach stroll",
+            "zone": "kerala-zone-water",
+            "base": "kerala-base-alleppey",
+            "tags": [
+              "relaxation"
+            ],
+            "visitMinutes": 100,
+            "prepMinutes": 10,
+            "recoveryMinutes": 10,
+            "preferredStart": "09:00",
+            "open": "09:00",
+            "close": "17:30",
+            "lastStart": "15:30",
+            "closedWeekdays": [],
+            "months": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "blackoutDates": [],
+            "intensity": "light",
+            "minAge": 0,
+            "maxAge": 90,
+            "familySuitable": true,
+            "optional": true,
+            "required": false,
+            "priceUnit": "person",
+            "adultPrice": 200,
+            "childPrice": 100,
+            "freeUnder": 4,
+            "childUnder": 12,
+            "condition": "",
+            "fallback": "",
+            "enabled": true,
+            "archived": false,
+            "order": 13
+          },
+          "zone": "Alleppey backwaters",
+          "condition": "",
+          "continues": false
+        },
+        {
+          "type": "recovery",
+          "title": "Alleppey beach stroll · recovery & pace buffer",
+          "start": 30004840,
+          "end": 30004850,
+          "continues": false
+        },
+        {
+          "type": "local-travel",
+          "title": "Return to Alleppey",
+          "start": 30004850,
+          "end": 30004870,
+          "km": 11,
+          "continues": false
+        },
+        {
+          "type": "leisure",
+          "title": "Unscheduled time · Alleppey",
+          "start": 30004870,
+          "end": 30004950,
+          "continues": false
+        },
+        {
+          "type": "meal",
+          "title": "Dinner · Alleppey",
+          "start": 30004980,
+          "end": 30005040,
+          "meal": "dinner",
+          "continues": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "stayDay": 10,
+      "label": "Stay day 10",
+      "date": "2027-01-19",
+      "base": "",
+      "blocks": [
+        {
+          "type": "meal",
+          "title": "Breakfast · Alleppey",
+          "start": 30005760,
+          "end": 30005790,
+          "meal": "breakfast",
+          "continues": false
+        },
+        {
+          "type": "hotel",
+          "title": "Check out · Alleppey",
+          "start": 30005790,
+          "end": 30005820,
+          "continues": false
+        },
+        {
+          "type": "gateway",
+          "title": "Alleppey → gateway",
+          "start": 30005820,
+          "end": 30005940,
+          "km": 66,
+          "continues": false
+        },
+        {
+          "type": "rest",
+          "title": "Gateway reporting & return safety buffer",
+          "start": 30005940,
+          "end": 30006000,
+          "continues": false
+        },
+        {
+          "type": "journey",
+          "title": "Kerala → New Delhi · Demo flight + airport time",
+          "start": 30006000,
+          "end": 30006270,
+          "continues": false
+        }
+      ]
+    }
+  ],
+  "rejections": [],
+  "selectionSummary": {
+    "mealPlanName": "Breakfast, lunch + dinner",
+    "activityChoice": "auto",
+    "prioritised": [],
+    "skipped": [],
+    "interests": "nature, culture",
+    "gatewayChoice": "Included in private transport"
+  },
+  "assumptions": [
+    "All times in Asia/Kolkata. 10 destination stay days means 9 hotel nights. Arrival and checkout are included in stay days; overnight travel adds separate calendar dates (10 dates door to door).",
+    "Editable demonstration timings, fictional hotels and estimated INR rates; verify all operational details before travel.",
+    "Intercity fares excluded; arrange separately. Taxes excluded and not calculated.",
+    "Private day rates include driver, fuel, gateway transfers and relocations; independent travel uses an allowance, with relocation charged separately.",
+    "All travellers, including infants, occupy one vehicle seat and count toward room occupancy. Every room requires an adult.",
+    "Hotel nights follow actual overnight dates. No guaranteed early check-in. Luggage drop and waiting/rest are assumed available.",
+    "Meals while travelling or overlapping transfers are self-arranged and excluded. Hotel breakfast is deducted only where included.",
+    "Conditional adventures require weather, access and operator confirmation. No live availability check.",
+    "Unscheduled or fallback activities are not charged; fallback suggestions require regeneration with a revised choice.",
+    "Private vehicle overages use elapsed touring time and stored kilometres, including waiting during visits."
+  ],
+  "cost": {
+    "ledger": [
+      {
+        "component": "Accommodation",
+        "label": "Rovea Munnar House (fictional) · 2027-01-10",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Munnar House (fictional) · 2027-01-11",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Munnar House (fictional) · 2027-01-12",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Munnar House (fictional) · 2027-01-13",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Munnar House (fictional) · 2027-01-14",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Alleppey House (fictional) · 2027-01-15",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Alleppey House (fictional) · 2027-01-16",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Alleppey House (fictional) · 2027-01-17",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Accommodation",
+        "label": "Rovea Alleppey House (fictional) · 2027-01-18",
+        "formula": "3200 × 1 room(s) × 1 night",
+        "total": 3200
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-10 · 1 × Private touring sedan",
+        "formula": "3200 daily + 0 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3200
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-11 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3550
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-12 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3550
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-13 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3550
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-14 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3550
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-15 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 14 extra km × 18, per vehicle",
+        "total": 3802
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-16 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3550
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-17 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3550
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-18 · 1 × Private touring sedan",
+        "formula": "3200 daily + 1 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3550
+      },
+      {
+        "component": "Local transport",
+        "label": "2027-01-19 · 1 × Private touring sedan",
+        "formula": "3200 daily + 0 extra hr × 350 + 0 extra km × 18, per vehicle",
+        "total": 3200
+      },
+      {
+        "component": "Activities",
+        "label": "Highland bird walk",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Hill craft workshop",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Echo valley viewpoints",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Hill garden visit",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Mattupetty landscape",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Tea heritage collection",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Spice garden exploration",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Tea estate walk",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Alleppey canal walk",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Coir craft workshop",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Lakeside bird walk",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Alleppey local market",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Paddy village landscape",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Village heritage walk",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Activities",
+        "label": "Alleppey beach stroll",
+        "formula": "2 adults; 0 children at recorded age bands",
+        "total": 400
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-11 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-11 · lunch",
+        "formula": "2 adult-equivalent portions × 450",
+        "total": 900
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-11 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-12 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-12 · lunch",
+        "formula": "2 adult-equivalent portions × 450",
+        "total": 900
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-12 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-13 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-13 · lunch",
+        "formula": "2 adult-equivalent portions × 450",
+        "total": 900
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-13 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-14 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-14 · lunch",
+        "formula": "2 adult-equivalent portions × 450",
+        "total": 900
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-14 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-15 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-16 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-16 · lunch",
+        "formula": "2 adult-equivalent portions × 450",
+        "total": 900
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-16 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-17 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-17 · lunch",
+        "formula": "2 adult-equivalent portions × 450",
+        "total": 900
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-17 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-18 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-18 · lunch",
+        "formula": "2 adult-equivalent portions × 450",
+        "total": 900
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-18 · dinner",
+        "formula": "2 adult-equivalent portions × 500",
+        "total": 1000
+      },
+      {
+        "component": "Meals",
+        "label": "2027-01-19 · breakfast (hotel included)",
+        "formula": "Included; no additional charge",
+        "total": 0
+      }
+    ],
+    "total": 84152,
+    "average": 42076,
+    "components": {
+      "Accommodation": 28800,
+      "Local transport": 35052,
+      "Activities": 6000,
+      "Meals": 14300
+    },
+    "vehicles": [
+      {
+        "date": "2027-01-10",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 132,
+        "hours": 4,
+        "overHours": 0,
+        "overKm": 0,
+        "total": 3200
+      },
+      {
+        "date": "2027-01-11",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 44,
+        "hours": 9,
+        "overHours": 1,
+        "overKm": 0,
+        "total": 3550
+      },
+      {
+        "date": "2027-01-12",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 44,
+        "hours": 8.7,
+        "overHours": 1,
+        "overKm": 0,
+        "total": 3550
+      },
+      {
+        "date": "2027-01-13",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 44,
+        "hours": 8.7,
+        "overHours": 1,
+        "overKm": 0,
+        "total": 3550
+      },
+      {
+        "date": "2027-01-14",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 44,
+        "hours": 9,
+        "overHours": 1,
+        "overKm": 0,
+        "total": 3550
+      },
+      {
+        "date": "2027-01-15",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 154,
+        "hours": 8.7,
+        "overHours": 1,
+        "overKm": 14,
+        "total": 3802
+      },
+      {
+        "date": "2027-01-16",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 44,
+        "hours": 9,
+        "overHours": 1,
+        "overKm": 0,
+        "total": 3550
+      },
+      {
+        "date": "2027-01-17",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 44,
+        "hours": 9,
+        "overHours": 1,
+        "overKm": 0,
+        "total": 3550
+      },
+      {
+        "date": "2027-01-18",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 44,
+        "hours": 8.7,
+        "overHours": 1,
+        "overKm": 0,
+        "total": 3550
+      },
+      {
+        "date": "2027-01-19",
+        "id": "kerala-sedan",
+        "destination": "kerala",
+        "name": "Private touring sedan",
+        "capacity": 4,
+        "dailyRate": 3200,
+        "hoursIncluded": 8,
+        "kmIncluded": 140,
+        "extraHour": 350,
+        "extraKm": 18,
+        "fuelDriverIncluded": true,
+        "gatewayIncluded": true,
+        "relocationsIncluded": true,
+        "enabled": true,
+        "archived": false,
+        "quantity": 1,
+        "km": 66,
+        "hours": 2,
+        "overHours": 0,
+        "overKm": 0,
+        "total": 3200
+      }
+    ],
+    "transfers": [],
+    "mealItems": [
+      {
+        "date": "2027-01-11",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      },
+      {
+        "date": "2027-01-11",
+        "meal": "lunch",
+        "included": false,
+        "total": 900
+      },
+      {
+        "date": "2027-01-11",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-12",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      },
+      {
+        "date": "2027-01-12",
+        "meal": "lunch",
+        "included": false,
+        "total": 900
+      },
+      {
+        "date": "2027-01-12",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-13",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      },
+      {
+        "date": "2027-01-13",
+        "meal": "lunch",
+        "included": false,
+        "total": 900
+      },
+      {
+        "date": "2027-01-13",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-14",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      },
+      {
+        "date": "2027-01-14",
+        "meal": "lunch",
+        "included": false,
+        "total": 900
+      },
+      {
+        "date": "2027-01-14",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-15",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-16",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      },
+      {
+        "date": "2027-01-16",
+        "meal": "lunch",
+        "included": false,
+        "total": 900
+      },
+      {
+        "date": "2027-01-16",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-17",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      },
+      {
+        "date": "2027-01-17",
+        "meal": "lunch",
+        "included": false,
+        "total": 900
+      },
+      {
+        "date": "2027-01-17",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-18",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      },
+      {
+        "date": "2027-01-18",
+        "meal": "lunch",
+        "included": false,
+        "total": 900
+      },
+      {
+        "date": "2027-01-18",
+        "meal": "dinner",
+        "included": false,
+        "total": 1000
+      },
+      {
+        "date": "2027-01-19",
+        "meal": "breakfast",
+        "included": true,
+        "total": 0
+      }
+    ],
+    "people": 2
+  }
+}
